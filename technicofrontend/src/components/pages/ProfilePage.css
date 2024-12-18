@@ -1,0 +1,75 @@
+.profile-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  padding: 20px;
+  background-image: url('../../assets/abstractwlp.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-page-container h1 {
+  margin-bottom: 20px;
+  color: #ffffff; 
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.profile-table-container {
+  max-height: 60vh; 
+  overflow-y: auto; 
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.profile-table th,
+.profile-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.profile-table th {
+  background-color: #005571;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.profile-table tr:hover {
+  background-color: #ddd;
+}
+
+.search-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar {
+  width: 80%; 
+  max-width: 600px; 
+  padding: 12px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-color: #257180;
+  box-shadow: 0 0 8px rgba(37, 113, 128, 0.5);
+}

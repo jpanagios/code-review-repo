@@ -1,0 +1,136 @@
+.repairs-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-image: url('../../assets/abstractwlp.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.repairs-page-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f2e5bf;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.repairs-form-container {
+    width: 600px;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+.repairs-form-container input,
+.repairs-form-container select,
+.repairs-form-container textarea {
+    width: 93%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.repairs-form-container input:focus,
+.repairs-form-container select:focus,
+.repairs-form-container textarea:focus {
+    border-color: #257180;
+    box-shadow: 0 0 8px rgba(37, 113, 128, 0.5);
+    outline: none;
+}
+
+.repairs-submit-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #005571;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.repairs-submit-button:hover {
+    background-color: #003f54;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.repairs-list {
+    width: 80%;
+    max-width: 800px;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.repair-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.repair-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.edit-button,
+.delete-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.edit-button {
+    background-color: #257180;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.edit-button:hover {
+    background-color: #1e5e60;
+    transform: translateY(-1px);
+}
+
+.delete-button {
+    background-color: #cb6040;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #a94c30;
+    transform: translateY(-1px);
+}
